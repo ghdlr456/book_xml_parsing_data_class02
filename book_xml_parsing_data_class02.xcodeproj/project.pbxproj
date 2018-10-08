@@ -14,6 +14,8 @@
 		FEECB5A92163388C00FD7ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEECB5A72163388C00FD7ACC /* LaunchScreen.storyboard */; };
 		FEECB5B42163388C00FD7ACC /* book_xml_parsing_data_class02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEECB5B32163388C00FD7ACC /* book_xml_parsing_data_class02Tests.swift */; };
 		FEECB5BF2163388C00FD7ACC /* book_xml_parsing_data_class02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEECB5BE2163388C00FD7ACC /* book_xml_parsing_data_class02UITests.swift */; };
+		FEECB5CF216338FE00FD7ACC /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEECB5CE216338FE00FD7ACC /* BookData.swift */; };
+		FEECB5D32163392900FD7ACC /* Book.xml in Resources */ = {isa = PBXBuildFile; fileRef = FEECB5D22163392900FD7ACC /* Book.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FEECB5BA2163388C00FD7ACC /* book_xml_parsing_data_class02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = book_xml_parsing_data_class02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEECB5BE2163388C00FD7ACC /* book_xml_parsing_data_class02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = book_xml_parsing_data_class02UITests.swift; sourceTree = "<group>"; };
 		FEECB5C02163388C00FD7ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEECB5CE216338FE00FD7ACC /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
+		FEECB5D22163392900FD7ACC /* Book.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Book.xml; path = ../Book.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		FEECB59D2163388800FD7ACC /* book_xml_parsing_data_class02 */ = {
 			isa = PBXGroup;
 			children = (
+				FEECB5D22163392900FD7ACC /* Book.xml */,
+				FEECB5CE216338FE00FD7ACC /* BookData.swift */,
 				FEECB59E2163388800FD7ACC /* AppDelegate.swift */,
 				FEECB5A02163388800FD7ACC /* ViewController.swift */,
 				FEECB5A22163388800FD7ACC /* Main.storyboard */,
@@ -231,6 +237,7 @@
 			files = (
 				FEECB5A92163388C00FD7ACC /* LaunchScreen.storyboard in Resources */,
 				FEECB5A62163388C00FD7ACC /* Assets.xcassets in Resources */,
+				FEECB5D32163392900FD7ACC /* Book.xml in Resources */,
 				FEECB5A42163388800FD7ACC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			files = (
 				FEECB5A12163388800FD7ACC /* ViewController.swift in Sources */,
 				FEECB59F2163388800FD7ACC /* AppDelegate.swift in Sources */,
+				FEECB5CF216338FE00FD7ACC /* BookData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
